@@ -1,0 +1,158 @@
+.listTicker{
+    width: 1440px;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 0;
+    .listTicker__itemSel{
+        cursor: pointer;
+        border: 3px solid rgba(186, 87, 206, 0.808);
+        width: 197px;
+        height: 172px;
+        -webkit-box-shadow: 0px 0px 8px 3px rgba(186, 87, 206, 0.808);
+        -moz-box-shadow: 0px 0px 8px 3px rgba(186, 87, 206, 0.808);
+        box-shadow: 0px 0px 8px 3px rgba(186, 87, 206, 0.808);
+        padding-top: 5px;
+        border-radius: 15px;
+        margin: 10px 18px;
+    }
+    .listTicker__item{
+        cursor: pointer;
+        border: 3px solid transparent;
+        width: 197px;
+        height: 172px;
+        -webkit-box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.17);
+        -moz-box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.17);
+        box-shadow: 0px 0px 8px 3px rgba(34, 60, 80, 0.17);
+        padding-top: 5px;
+        border-radius: 15px;
+        margin: 10px 18px;
+    }
+}
+.listTicker__title{
+    width: max-content;
+    height: max-content;
+    color: rgb(120, 120, 120);
+    font-size: 25px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.listTicker__price{
+    width: max-content;
+    height: max-content;
+    font-size: 30px;
+    margin: 10px auto;
+}
+.listTicker__delete{
+    width: 90px;
+    background-color: transparent;
+    border: none;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    color: rgb(120, 120, 120);
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    transition: 200ms;
+}   .listTicker__delete:hover{color:rgb(201, 201, 201);transition: 200ms;}
+.listTicker__graph_block{
+    margin-top: 50px;
+    width: 1440px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    .listTicker__graph{
+        width: 1000px;
+        height: 200px;
+        display: flex;    
+        align-items: flex-end;
+        border-left: 2px solid #000;
+        border-bottom: 2px solid #000;
+        .listTicker__graph_item{
+            border-left: 1px solid rgba(110, 46, 122, 0.651);
+            width: 30px;
+            background-color: rgba(186, 87, 206, 0.808);
+        }
+    }
+    .listTicker__graph_close{
+        color: #fff;
+        background-color: #787878;
+        transition: 150ms;
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        border-radius: 25px;
+        border: none;
+        margin-left: -30px;
+        margin-top: -170px;
+    }   .listTicker__graph_close:hover{transition: 150ms;color:rgb(120, 120, 120);background-color:#fff;}
+    .listTicker__graph_title{
+        margin: 0 auto;
+        width: max-content;
+        height: max-content;
+        font-size: 25px;
+        padding-top: 10px;
+        margin: 0 auto;        
+    }
+}
+.tickers{
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    margin-top: 45px;
+    width: 1440px;
+    height: max-content;
+    .searchTicker{
+        margin-left: auto;
+        margin-top: 10px;
+        margin-right: 20px;
+        width: 150px;
+        height: 20px;
+        border-radius: 25px;
+        padding-left: 10px;
+        outline: none;
+        border-color: rgb(120, 120, 120);
+        background-color: transparent;
+    }
+}
+.btn_page{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    .btn_page_minus{
+        margin-left: 25px;
+        width: 60px;
+        height: 25px;
+        border-radius: 15px;
+        border: 2px solid rgb(120, 120, 120);
+        color: #fff;
+        font-weight: bold;
+        background-color: rgb(120, 120, 120);
+        cursor: pointer;
+        transition: 180ms;
+    }   .btn_page_minus:hover{
+        color: rgb(120, 120, 120);
+        background-color: #fff;
+        transition: 180ms;}
+    .btn_page_plus{
+        margin-left: 25px;
+        width: 60px;
+        height: 25px;
+        border-radius: 15px;
+        border: 2px solid rgb(120, 120, 120);
+        color: #fff;
+        font-weight: bold;
+        background-color: rgb(120, 120, 120);
+        cursor: pointer;
+        transition: 180ms;
+    }   .btn_page_plus:hover{
+        color: rgb(120, 120, 120);
+        background-color: #fff;
+        transition: 180ms;}
+}
+        

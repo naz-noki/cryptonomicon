@@ -1,0 +1,55 @@
+.addTicker__form{
+    width: max-content;
+    height: max-content;
+    .addTicker__error{
+        color: red;
+        margin-top: 10px;
+    }
+    .addTicker__title{
+        color: rgb(121, 120, 120);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .addTicker__inp{
+        width: 250px;
+        height: 30px;
+        outline: none;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid rgb(121, 120, 120);
+        margin-top: 30px;
+    }
+    .addTicker__btn{
+        margin-top: 25px;
+        width: 112px;
+        height: 37px;
+        border-radius: 15px;
+        border: 2px solid rgb(120, 120, 120);
+        color: #fff;
+        font-weight: bold;
+        background-color: rgb(120, 120, 120);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        transition: 180ms;
+        .addTicker__btnPl{
+            font-size: 20px;
+            width: 21px;
+            height: 21px;
+            border: 2px solid #fff;
+            border-radius: 100%;
+            margin-left: 6px;
+            margin-right: 6px;
+            transition: 180ms;
+        }
+    } .addTicker__btn:hover{
+        color: rgb(120, 120, 120);
+        background-color: #fff;
+        transition: 180ms;
+        .addTicker__btnPl{
+            color: rgb(120, 120, 120);
+            border: 2px solid rgb(120, 120, 120);
+            transition: 180ms;
+        }
+      }
+}
